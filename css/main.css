@@ -1,0 +1,51 @@
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+.nav > ul {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper > .dfn + strong {
+  background-color: #eee8d5;
+  background-color: #b58900;
+  color: #fff;
+}
+
+#contents, #favs, #facts, #types {
+  #93a1a1;
+}
+
+a:not(.no-highlight)){
+  background-color: #729e07
+}
+
+a[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol > li::first-line {
+  color: #719e47
+}
+
+ol > li:nth-last-child(1) {
+  color: #2aa198;
+}
+
+.types > li:nth-child(odd) {
+  color: #657ba3;
+}
+
+.types > li {
+  background-color: 586e75;
+}
+
+.types > li
