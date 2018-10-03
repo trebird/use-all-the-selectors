@@ -6,7 +6,7 @@ header, footer {
   font-size: 1.5rem;
 }
 
-.nav > ul {
+ul:first-child {
   font-family: sans-serif;
 }
 
