@@ -17,7 +17,8 @@ header, footer {
 .wrapper {
   background-color: #eee8d5;
 }
-dfn + strong {
+
+#facts + .dfn {
   background-color: #b58900;
   color: #fff;
 }
@@ -34,11 +35,11 @@ a[rel="external"] {
   background-color: #2694d8;
 }
 
-ol > li::first-line {
+ol > li:first-of-type {
   color: #719e47;
 }
 
-ol > li:nth-last-child(1) {
+ol > li:last-of-type {
   color: #2aa198;
 }
 
