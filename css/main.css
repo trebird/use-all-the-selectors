@@ -14,18 +14,20 @@ header, footer {
   text-transform: uppercase;
 }
 
-.wrapper > .dfn + strong {
+.wrapper {
   background-color: #eee8d5;
-  background-color: #b58900;
-  color: #fff;
+}
+  dfn + strong {
+    background-color: #b58900;
+    color: #fff;
 }
 
 #contents, #favs, #facts, #types {
-  #93a1a1;
+  color: #93a1a1;
 }
 
 a:not(.no-highlight)){
-  background-color: #729e07
+  background-color: #719e07
 }
 
 a[rel="external"] {
@@ -41,13 +43,13 @@ ol > li:nth-last-child(1) {
 }
 
 .types > li:nth-child(odd) {
-  color: #657ba3;
+  background-color: #657ba3;
 }
 
 .types > li {
   background-color: #586e75;
 }
 
-.types > li:nth-child(3n) {
+.types > li:nth-child(3n+3) {
   background-color: #d04b16
 }
