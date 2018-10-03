@@ -1,7 +1,3 @@
-html {
-
-}
-
 body {
   background-color: #fdf6e3;
 }
@@ -26,9 +22,9 @@ header, footer {
   background-color: #b58900;
 }
 
-  strong:nth-child(2) {
-    color: #fff;
-  }
+strong:nth-child(2) {
+  color: #fff;
+}
 
 #contents, #favs, #facts, #types {
   color: #93a1a1;
