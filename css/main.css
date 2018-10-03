@@ -17,17 +17,17 @@ header, footer {
 .wrapper {
   background-color: #eee8d5;
 }
-  dfn + strong {
-    background-color: #b58900;
-    color: #fff;
+dfn + strong {
+  background-color: #b58900;
+  color: #fff;
 }
 
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-a:not(.no-highlight){
-  background-color: #719e07
+a:not(.no-highlight) {
+  background-color: #719e07;
 }
 
 a[rel="external"] {
@@ -35,7 +35,7 @@ a[rel="external"] {
 }
 
 ol > li::first-line {
-  color: #719e47
+  color: #719e47;
 }
 
 ol > li:nth-last-child(1) {
@@ -51,5 +51,5 @@ ol > li:nth-last-child(1) {
 }
 
 .types > li:nth-child(3n+3) {
-  background-color: #d04b16
+  background-color: #d04b16;
 }
